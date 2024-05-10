@@ -5,6 +5,47 @@ import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+//students picture
+import student from '../images/user.jpg'
+import baduaPic from '../studentPic/136515110030.jpg'
+
+
+import banez from '../studentPic/406471150053.png'
+import bautista from '../studentPic/109403130306.jpg'
+import bejarin from '../studentPic/136526131155.jpg'
+import bucado from '../studentPic/113815110020.jpg'
+import camba from '../studentPic/136526110114.png'
+// import cervantes from '../studentPic/48'
+import codog from '../studentPic/136515121128.jpg'
+import damolo from '../studentPic/136526110160.jpg'
+import daniega from '../studentPic/136515120725.jpg'
+import docot from '../studentPic/136526110179.jpg'
+import escobal from '../studentPic/136526120275.jpg'
+// import gabrilo from '../studentPic/136515120'
+import hermosa from '../studentPic/136514120007.jpg'
+import javier from '../studentPic/136515110136.jpg'
+import latona from '../studentPic/136526090480.jpg'
+import llanto from '../studentPic/136514120609.jpg'
+import macunan from '../studentPic/136526100560.jpg'
+import morandarte from '../studentPic/136514121365.png'
+import osonia from '../studentPic/136515120734.jpg'
+// import padel
+import perocillo from '../studentPic/136526120335.jpg'
+import sagaysay from '../studentPic/136515100604.jpg'
+import sajolGab from '../studentPic/136514121136.jpeg'
+import sajolJes from '../studentPic/136526110438.jpg'
+import tabor from '../studentPic/158516080143.jpg'
+import vinluan from '../studentPic/482818150185.jpg'
+
+import agoncillo from '../studentPic/114692060002.png'
+import biasa from '../studentPic/136515121243.jpg'
+// import busa 
+import gutierez from '../studentPic/303319090143.jpeg'
+import hinacay from '../studentPic/136515121251.jpg'
+import labordo from '../studentPic/136515120792.jpg'
+import magos from '../studentPic/136515120899.jpeg'
+import rosales from '../studentPic/136524110747.jpg'
+
 
 const Homepage = () => {
 
@@ -199,13 +240,106 @@ const Homepage = () => {
 
 
 
+    const getImage = (scanRes) => {
+        if (scanRes) {
+            return `../studentPic/${scanRes}`
+        }
+    }
+    const DynamicImageSetter = (uniqueId) => {
+        // Assuming your image files are named based on the unique ID
+        const imagePath = `../studentPic/${uniqueId}.jpg`;
+
+        return <img src={imagePath} alt={`Image for ID ${uniqueId}`} />;
+    };
+
+
+    const setImageForStudents = (scanRes) => {
+        const stringiFied = scanRes.toString()
+        switch (stringiFied) {
+            case "136515110030":
+                return <img src={baduaPic} alt="" />;
+            case "406471150053":
+                return <img src={banez} alt="" />;
+            case "109403130306":
+                return <img src={bautista} alt="" />;
+            case "136526131155":
+                return <img src={bejarin} alt="" />;
+            case "136526110114":
+                return <img src={camba} alt="" />;
+            case "482519150177":
+                return <img src={student} alt="" />;
+            case "136526110160":
+                return <img src={damolo} alt="" />;
+            case "136515120725":
+                return <img src={student} alt="" />;
+            case "136526110179":
+                return <img src={docot} alt="" />;
+            case "136526120275":
+                return <img src={escobal} alt="" />;
+            case "136515120392":
+                return <img src={student} alt="" />;
+            case "136514120007":
+                return <img src={hermosa} alt="" />;
+            case "136515110136":
+                return <img src={javier} alt="" />;
+            case "136526090480":
+                return <img src={latona} alt="" />;
+            case "136514120609":
+                return <img src={llanto} alt="" />;
+            case "136526100560":
+                return <img src={macunan} alt="" />;
+            case "136514121365":
+                return <img src={morandarte} alt="" />;
+            case "136515120734":
+                return <img src={osonia} alt="" />;
+            case "136515100499":
+                return <img src={student} alt="" />;
+            case "136526120335":
+                return <img src={perocillo} alt="" />;
+            case "136515100604":
+                return <img src={sagaysay} alt="" />;
+            case "136514121136":
+                return <img src={sajolGab} alt="" />;
+            case "136515120725":
+                return <img src={daniega} alt="" />;
+            case "113815110020":
+                return <img src={bucado} alt="" />;
+            case "136526110438":
+                return <img src={sajolJes} alt="" />;
+            case "158516080143":
+                return <img src={tabor} alt="" />;
+            case "482818150185":
+                return <img src={vinluan} alt="" />;
+            case "114692060002":
+                return <img src={agoncillo} alt="" />;
+            case "136515121243":
+                return <img src={biasa} alt="" />;
+            case "303319090143":
+                return <img src={gutierez} alt="" />;
+            case "136515121251":
+                return <img src={hinacay} alt="" />;
+            case "136515120792":
+                return <img src={labordo} alt="" />;
+            case "136515120899":
+                return <img src={magos} alt="" />;
+            case "136524110747":
+                return <img src={rosales} alt="" />;
+            case "136515100160":
+                return <img src={student} alt="" />;
+            case "136515121128":
+                return <img src={codog} alt="" />;
+            default:
+                return null;
+        }
+
+    }
 
     return (
         <div className="wrapper">
             <ToastContainer />
-                {loading === true? 
+            {loading === true ?
                 <></> :
-                 (
+                (
                     <div className="load">
                         <div className="loader"></div>
                         <div className="text">
@@ -215,6 +349,7 @@ const Homepage = () => {
                 )}
             <div className='Homepage'>
                 <div className="secCon">
+
                     {!seeCam ?
                         <div id="reader"></div> :
                         <button className='scanAgain' onClick={() => { setSeeCam(false); window.location.reload() }}>Scan Again</button>
@@ -226,12 +361,16 @@ const Homepage = () => {
             {scanRes !== null && (
                 <>
                     <div className="studentInfo" ref={userInf}>
+
                         <div className="userPfp">
+                            {data.length === 0 ? <></> : <>{setImageForStudents(scanRes)}</>}
                         </div>
 
                         <div className='user'>
+                            {data.length === 0 && <>NO STUDENT FOUND</>}
                             {data.map((item) => (
                                 <div key={item.LRN} className="userCon">
+                                    <img src={item.IMG} alt="" />
                                     <div className="inf">
                                         LRN: <span>{item.LRN}</span>
                                     </div>

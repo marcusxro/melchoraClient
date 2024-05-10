@@ -105,9 +105,15 @@
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid #ccc;
-  background-image: url('./images/user.jpg');
+  overflow: hidden;
   border-radius: 20px;
 }
+.studentInfo .userPfp img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
 .studentInfo .user   {
   font-size: clamp(1rem, 3vw, 2rem);
   font-weight: bold;

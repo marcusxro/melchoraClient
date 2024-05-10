@@ -1,3 +1,5 @@
+
+
 export const UserObj = {
     "learners": [
       {
@@ -5,13 +7,16 @@ export const UserObj = {
         "NAME": "BADUA, JOSE MAR JR. CONDE",
         "Sex": "M",
         "BIRTH_DATE": "08/28/2005",
-        "AGE":  "18"
+        "AGE":
+          "18",
+        "IMG": './studentPic/136515110030.jpg'
       },
       {
         "LRN": "406471150053",
         "NAME": "BAÑEZ, WENCY BRIONES",
         "Sex": "M",
         "BIRTH_DATE": "04/24/2003",
+        "IMG": './studentPic/406471150053.png',
         "AGE":  "20"
       },
       {
@@ -19,6 +24,7 @@ export const UserObj = {
         "NAME": "BAUTISTA, JOHN MARK COLANDOG",
         "Sex": "M",
         "BIRTH_DATE": "10/04/2006",
+        "IMG": './studentPic/109403130306.jpg',
         "AGE":  "17"
       },
       {
@@ -26,6 +32,7 @@ export const UserObj = {
         "NAME": "BEJARIN, PAUL JARED TUBALLIAS",
         "Sex": "M",
         "BIRTH_DATE": "02/14/2003",
+        "IMG": './studentPic/136526131155.jpg',
         "AGE":  "20"
       },
       {
@@ -33,6 +40,7 @@ export const UserObj = {
         "NAME": "BUCADO, JOHN MARK BUCADO",
         "Sex": "M",
         "BIRTH_DATE": "11/02/2005",
+        "IMG": '',
         "AGE":  "17"
       },
       {
@@ -40,6 +48,7 @@ export const UserObj = {
         "NAME": "CAMBA, JOSHUA SALANGSANG",
         "Sex": "M",
         "BIRTH_DATE": "09/14/2005",
+        "IMG": './studentPic/136526110114.png',
         "AGE":  "18"
       },
       {
@@ -47,6 +56,7 @@ export const UserObj = {
         "NAME": "CERVANTES, SEAN ANDREI ESTORGIO",
         "Sex": "M",
         "BIRTH_DATE": "10/17/2005",
+        "IMG": '',
         "AGE":  "18"
       },
       {
@@ -54,6 +64,7 @@ export const UserObj = {
         "NAME": "CODOG, DANIEL MALIJAO",
         "Sex": "M",
         "BIRTH_DATE": "10/19/2006",
+        "IMG": '',
         "AGE":  "17"
       },
       {
@@ -61,6 +72,7 @@ export const UserObj = {
         "NAME": "DAMOLO, JOHN KHYLLE ESCOBAL",
         "Sex": "M",
         "BIRTH_DATE": "03/21/2006",
+        "IMG": './studentPic/136526110160.jpg',
         "AGE":  "17"
       },
       {
@@ -68,6 +80,7 @@ export const UserObj = {
         "NAME": "DENIEGA, NATHAN EARL TAGAYLO",
         "Sex": "M",
         "BIRTH_DATE": "06/29/2006",
+        "IMG": './studentPic/136515120725.jpg',
         "AGE":  "17"
       },
       {
@@ -75,6 +88,7 @@ export const UserObj = {
         "NAME": "DOCOT, RICH MONDREY MONZOR",
         "Sex": "M",
         "BIRTH_DATE": "12/24/2005",
+        "IMG": './studentPic/136526110179.jpg',
         "AGE":  "17"
       },
       {
@@ -82,6 +96,7 @@ export const UserObj = {
         "NAME": "ESCOBAL, GABRIEL TABUGON",
         "Sex": "M",
         "BIRTH_DATE": "07/30/2006",
+        "IMG": './studentPic/136526120275.jpg',
         "AGE":  "17"
       },
       {
@@ -89,6 +104,7 @@ export const UserObj = {
         "NAME": "GABRILLO, JUAN LUIS MIGUEL OCAMPO",
         "Sex": "M",
         "BIRTH_DATE": "03/14/2006",
+        "IMG": '',
         "AGE":  "17"
       },
       {
@@ -96,6 +112,7 @@ export const UserObj = {
         "NAME": "HERMOSA, REY CRIS SALVADOR",
         "Sex": "M",
         "BIRTH_DATE": "04/21/2006",
+        "IMG": '',
         "AGE":  "17"
       },
       {
@@ -103,6 +120,7 @@ export const UserObj = {
         "NAME": "JAVIER, JUSTIN JAY FERNANDEZ",
         "Sex": "M",
         "BIRTH_DATE": "03/04/2006",
+        "IMG": './studentPic/136515110136.jpg',
         "AGE":  "17"
       },
       {
@@ -110,6 +128,7 @@ export const UserObj = {
         "NAME": "LATONA, RODERICK GUZMAN",
         "Sex": "M",
         "BIRTH_DATE": "12/05/2002",
+        "IMG": './studentPic/136526090480.jpg',
         "AGE":  "20"
       },
       {
@@ -117,6 +136,7 @@ export const UserObj = {
         "NAME": "LLANTO, JUSTINE null ENGRESO",
         "Sex": "M",
         "BIRTH_DATE": "06/22/2005",
+        "IMG": './studentPic/136514120609.jpg',
         "AGE":  "18"
       },
       {
@@ -124,6 +144,7 @@ export const UserObj = {
         "NAME": "MACUNAN, JHON ANDREW CAHULOGAN",
         "Sex": "M",
         "BIRTH_DATE": "08/27/2004",
+        "IMG": './studentPic/136526100560.jpg',
         "AGE":  "19"
       },
       {
@@ -131,6 +152,7 @@ export const UserObj = {
         "NAME": "MORANDARTE, DICK VINCENT ANTABO",
         "Sex": "M",
         "BIRTH_DATE": "05/28/2006",
+        "IMG": './studentPic/136514121365.png',
         "AGE":  "17"
       },
       {
@@ -138,6 +160,7 @@ export const UserObj = {
         "NAME": "OSONIA, ARJHON PAJARES",
         "Sex": "M",
         "BIRTH_DATE": "09/19/2005",
+        "IMG": './studentPic/136515120734.jpg',
         "AGE":  "18"
       },
       {
@@ -145,6 +168,7 @@ export const UserObj = {
         "NAME": "PADEL, JOHN MARK CERVANTES",
         "Sex": "M",
         "BIRTH_DATE": "10/10/2003",
+        "IMG": '',
         "AGE":  "20"
       },
       {
@@ -152,6 +176,7 @@ export const UserObj = {
         "NAME": "PEROCILLO, JOHN MIKE CONTAPAY",
         "Sex": "M",
         "BIRTH_DATE": "05/02/2006",
+        "IMG": './studentPic/136526120335.jpg',
         "AGE":  "17"
       },
       {
@@ -159,6 +184,7 @@ export const UserObj = {
         "NAME": "SAGAYSAY, FERL EIL BOY CALISO",
         "Sex": "M",
         "BIRTH_DATE": "06/13/2005",
+        "IMG": './studentPic/136515100604.jpg',
         "AGE":  "18"
       },
       {
@@ -166,6 +192,7 @@ export const UserObj = {
         "NAME": "SAJOL, GABRIEL MAVERICK SABALBORO",
         "Sex": "M",
         "BIRTH_DATE": "07/25/2006",
+        "IMG": './studentPic/136514121136.jpeg',
         "AGE":  "17"
       },
       {
@@ -173,6 +200,7 @@ export const UserObj = {
         "NAME": "SAJOL, JESSREL RACAB",
         "Sex": "M",
         "BIRTH_DATE": "12/01/2005",
+        "IMG": './studentPic/136526110438.jpg',
         "AGE":  "17"
       },
       {
@@ -180,6 +208,7 @@ export const UserObj = {
         "NAME": "TABOR, ISRAEL DE GUZMAN",
         "Sex": "M",
         "BIRTH_DATE": "08/14/2002",
+        "IMG": './studentPic/158516080143.jpg',
         "AGE":  "21"
       },
       {
@@ -187,6 +216,7 @@ export const UserObj = {
         "NAME": "VINLUAN, DEOGRACIAS III",
         "Sex": "M",
         "BIRTH_DATE": "02/04/2006",
+        "IMG": '',
         "AGE":  "17"
       },
       {
@@ -194,6 +224,7 @@ export const UserObj = {
         "NAME": "AGONCILLO, CRISTY DELA CRUZ",
         "Sex": "F",
         "BIRTH_DATE": "12/10/1999",
+        "IMG": './studentPic/114692060002.png',
         "AGE":  "23"
       },
       {
@@ -201,6 +232,7 @@ export const UserObj = {
         "NAME": "BIASA, DANIELLA ESTANISLAO",
         "Sex": "F",
         "BIRTH_DATE": "11/24/2002",
+        "IMG": './studentPic/136515121243.jpg',
         "AGE":  "20"
       },
       {
@@ -208,6 +240,7 @@ export const UserObj = {
         "NAME": "BUSA, RESHELLE PALCE",
         "Sex": "F",
         "BIRTH_DATE": "03/31/2005",
+        "IMG": '',
         "AGE":  "18"
       },
       {
@@ -215,6 +248,7 @@ export const UserObj = {
         "NAME": "GUTIERREZ, EMIELYN BARRINA",
         "Sex": "F",
         "BIRTH_DATE": "02/09/1997",
+        "IMG": './studentPic/303319090143.jpeg',
         "AGE":  "26"
       },
       {
@@ -222,6 +256,7 @@ export const UserObj = {
         "NAME": "HINACAY, MARY-ANN GRACE CASTRODES",
         "Sex": "F",
         "BIRTH_DATE": "05/10/2006",
+        "IMG": './studentPic/136515121251.jpg',
         "AGE":  "17"
       },
       {
@@ -229,6 +264,7 @@ export const UserObj = {
         "NAME": "LABORDO, SHAINE MARIE BRAVO",
         "Sex": "F",
         "BIRTH_DATE": "07/06/2006",
+        "IMG": './studentPic/136515120792.jpg',
         "AGE":  "17"
       },
       {
@@ -236,6 +272,7 @@ export const UserObj = {
         "NAME": "MAGOS, JELYN BORNASAL",
         "Sex": "F",
         "BIRTH_DATE": "08/02/2005",
+        "IMG": './studentPic/136515120899.jpeg',
         "AGE":  "18"
       },
       {
@@ -243,6 +280,7 @@ export const UserObj = {
         "NAME": "ROSALES, ANGELA MAE ENDAYA",
         "Sex": "F",
         "BIRTH_DATE": "05/09/2006",
+       "IMG": './studentPic/136524110747.jpg',
         "AGE":  "17"
       }
     ],
